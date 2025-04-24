@@ -1,0 +1,37 @@
+{
+    "cli": {
+        "version": ">= 14.1.0",
+        "appVersionSource": "remote"
+    },
+    "build": {
+        "default": {
+            "developmentClient": false,
+            "distribution": "store",
+            "android": {
+                "buildType": "apk"
+            },
+            "ios": {
+                "simulator": false
+            },
+            "env": {
+                "APP_VARIANT": "default"
+            }
+        },
+        "business": {
+            "developmentClient": false,
+            "distribution": "store",
+            "android": {
+                "buildType": "apk"
+            },
+            "ios": {
+                "simulator": false
+            },
+            "env": {
+                "APP_VARIANT": "business"
+            }
+        }
+    },
+    "submit": {
+        "production": {}
+    }
+}

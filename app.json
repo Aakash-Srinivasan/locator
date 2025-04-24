@@ -36,6 +36,16 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "appVariant": "business",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ce9ee670-0586-4d5e-8b17-7f730c079d7e"
+      }
+    },
+    "owner": "aakash_srinivasan"
   }
 }
